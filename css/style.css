@@ -1,0 +1,126 @@
+
+/*---------------------------Vista Desktop--------------------------------------------*/
+@media only screen and (min-width: 1024px) {
+
+body{
+    background-color:  hsl(204, 33%, 88%);
+    font-family: 'Karla', sans-serif;
+}
+.fondo {
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor-padre1{
+    display: flex;
+    flex-direction: column;
+    margin: 20em 22em; 
+    border-radius: 10px;
+    box-shadow:  10px 10px 28px #d3d3d3,
+             -10px -1px 16px #d3d3d3;
+    overflow: hidden;
+}
+.item-hijo1{
+    background-color: hsl(75, 29%, 95%);
+    padding: 35px;
+}
+.subtitulo1{
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+h2 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 800;
+    font-size: 24px;
+}
+.texto-gain {
+    color: hsl(0, 1%, 54%);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transform: translateY(-5px);
+    line-height: 25px;
+}
+.contenedor-padre2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.item-hijo2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: hsl(179, 62%, 43%);
+    width: 24em;
+    color: white;
+    opacity: 0.8;
+    height: 18em;
+}
+.dos-textos {
+    display: flex;
+    flex-direction: row nowrap;
+    padding-bottom: 0;
+    transform: translateY(-8px);
+}
+.precio {
+    color: white;
+    font-size: 30px; 
+    font-weight: 900;
+}
+.texto-precio {
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+    font-weight: 600;
+    transform: translate(15px, 22px)
+}
+.texto-precio2 {
+    transform: translateY(-30px);
+}
+.subtitulo {
+    color: white;
+    font-weight: 900;
+    opacity: 0.9;
+    font-size: 20px;
+}
+.boton-registro {
+    background-color: hsl(71, 73%, 54%);
+    margin: 0 2.5em 1em 1em;
+    padding: 10px 5px 12px 5px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 3px rgb(48, 48, 48);
+}
+.boton-registro:hover  {
+    animation: shadow-pulse 1000ms 1;
+    background-color: hsl(71, 61%, 34%);
+    color: #434343;
+}
+.item-hijo3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: hsl(179, 45%, 58%);
+    width: 24em;
+    height: 18em;
+}
+.listado-beneficios {
+    color:  hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 18px;
+}
+}
+ /*Cierre vista desktop*/
+
+/*---------------------------Vista Mobile --------------------------------------------*/
+@media only screen and (max-width: 767px) {
+
+
+} /*Cierre vista Mobile*/
